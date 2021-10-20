@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import App from './App';
-
-const title = 'My Minimal React Webpack Babel Setup';
+import SwaggerUI from 'swagger-ui-react';
 
 ReactDOM.render(
-  <App title={title} />,
+  <SwaggerUI url="https://petstore.swagger.io/v2/swagger.json" />,
   document.getElementById('app')
 );
 

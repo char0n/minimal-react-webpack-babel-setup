@@ -21,7 +21,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "swagger-ui-react": "^3.52.5"
   }
 }
